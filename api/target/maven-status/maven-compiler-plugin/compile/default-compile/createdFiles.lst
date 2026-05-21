@@ -1,0 +1,5 @@
+io/github/ndr2084/api/service/LoginService.class
+io/github/ndr2084/api/repository/UserRepository.class
+io/github/ndr2084/api/configuration/CorsConfig.class
+io/github/ndr2084/api/model/UserEntity.class
+io/github/ndr2084/api/controller/LoginController.class

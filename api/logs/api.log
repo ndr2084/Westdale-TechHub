@@ -1,0 +1,754 @@
+OAuth2 login success -
+            user: Name: [54959715],
+            Granted Authorities: [[OAUTH2_USER, SCOPE_read:user]],
+            User Attributes: [{login=ndr2084, id=54959715, node_id=MDQ6VXNlcjU0OTU5NzE1, avatar_url=https://avatars.githubusercontent.com/u/54959715?v=4, gravatar_id=, url=https://api.github.com/users/ndr2084, html_url=https://github.com/ndr2084, followers_url=https://api.github.com/users/ndr2084/followers, following_url=https://api.github.com/users/ndr2084/following{/other_user}, gists_url=https://api.github.com/users/ndr2084/gists{/gist_id}, starred_url=https://api.github.com/users/ndr2084/starred{/owner}{/repo}, subscriptions_url=https://api.github.com/users/ndr2084/subscriptions, organizations_url=https://api.github.com/users/ndr2084/orgs, repos_url=https://api.github.com/users/ndr2084/repos, events_url=https://api.github.com/users/ndr2084/events{/privacy}, received_events_url=https://api.github.com/users/ndr2084/received_events, type=User, user_view_type=private, site_admin=false, name=Nathan Rous, company=Research Assistant @ Lassonde , blog=, location=Toronto, ON, email=null, hireable=true, bio=Lassonde School of Engineering
+HBSc CS With Specialization in AI | Spring and Angular 
+, twitter_username=null, notification_email=null, public_repos=37, public_gists=0, followers=10, following=22, created_at=2019-09-05T19:41:27Z, updated_at=2026-05-19T22:39:16Z, private_gists=0, total_private_repos=15, owned_private_repos=15, disk_usage=1813567, collaborators=1, two_factor_authentication=false, plan={name=free, space=976562499, collaborators=0, private_repos=10000}}]
+2026-05-20T22:37:26.992-04:00  INFO 471352 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : findOrCreateUser result: UserEntity{githubId='54959715', username='ndr2084'}
+2026-05-20T22:56:36.747-04:00  INFO 471352 --- [api] [http-nio-8080-exec-6] i.g.n.a.configuration.WebSecurityConfig  : OAuth2 login success - user: Name: [54959715], Granted Authorities: [[OAUTH2_USER, SCOPE_read:user]], User Attributes: [{login=ndr2084, id=54959715, node_id=MDQ6VXNlcjU0OTU5NzE1, avatar_url=https://avatars.githubusercontent.com/u/54959715?v=4, gravatar_id=, url=https://api.github.com/users/ndr2084, html_url=https://github.com/ndr2084, followers_url=https://api.github.com/users/ndr2084/followers, following_url=https://api.github.com/users/ndr2084/following{/other_user}, gists_url=https://api.github.com/users/ndr2084/gists{/gist_id}, starred_url=https://api.github.com/users/ndr2084/starred{/owner}{/repo}, subscriptions_url=https://api.github.com/users/ndr2084/subscriptions, organizations_url=https://api.github.com/users/ndr2084/orgs, repos_url=https://api.github.com/users/ndr2084/repos, events_url=https://api.github.com/users/ndr2084/events{/privacy}, received_events_url=https://api.github.com/users/ndr2084/received_events, type=User, user_view_type=private, site_admin=false, name=Nathan Rous, company=Research Assistant @ Lassonde , blog=, location=Toronto, ON, email=null, hireable=true, bio=Lassonde School of Engineering
+HBSc CS With Specialization in AI | Spring and Angular 
+, twitter_username=null, notification_email=null, public_repos=37, public_gists=0, followers=10, following=22, created_at=2019-09-05T19:41:27Z, updated_at=2026-05-19T22:39:16Z, private_gists=0, total_private_repos=15, owned_private_repos=15, disk_usage=1813567, collaborators=1, two_factor_authentication=false, plan={name=free, space=976562499, collaborators=0, private_repos=10000}}]
+2026-05-20T22:56:36.751-04:00  INFO 471352 --- [api] [http-nio-8080-exec-6] i.g.n.a.configuration.WebSecurityConfig  : findOrCreateUser result: UserEntity{githubId='54959715', username='ndr2084'}
+2026-05-20T22:56:59.472-04:00  INFO 471352 --- [api] [http-nio-8080-exec-8] i.g.n.a.configuration.WebSecurityConfig  : OAuth2 login success - user: Name: [54959715], Granted Authorities: [[OAUTH2_USER, SCOPE_read:user]], User Attributes: [{login=ndr2084, id=54959715, node_id=MDQ6VXNlcjU0OTU5NzE1, avatar_url=https://avatars.githubusercontent.com/u/54959715?v=4, gravatar_id=, url=https://api.github.com/users/ndr2084, html_url=https://github.com/ndr2084, followers_url=https://api.github.com/users/ndr2084/followers, following_url=https://api.github.com/users/ndr2084/following{/other_user}, gists_url=https://api.github.com/users/ndr2084/gists{/gist_id}, starred_url=https://api.github.com/users/ndr2084/starred{/owner}{/repo}, subscriptions_url=https://api.github.com/users/ndr2084/subscriptions, organizations_url=https://api.github.com/users/ndr2084/orgs, repos_url=https://api.github.com/users/ndr2084/repos, events_url=https://api.github.com/users/ndr2084/events{/privacy}, received_events_url=https://api.github.com/users/ndr2084/received_events, type=User, user_view_type=private, site_admin=false, name=Nathan Rous, company=Research Assistant @ Lassonde , blog=, location=Toronto, ON, email=null, hireable=true, bio=Lassonde School of Engineering
+HBSc CS With Specialization in AI | Spring and Angular 
+, twitter_username=null, notification_email=null, public_repos=37, public_gists=0, followers=10, following=22, created_at=2019-09-05T19:41:27Z, updated_at=2026-05-19T22:39:16Z, private_gists=0, total_private_repos=15, owned_private_repos=15, disk_usage=1813567, collaborators=1, two_factor_authentication=false, plan={name=free, space=976562499, collaborators=0, private_repos=10000}}]
+2026-05-20T22:56:59.476-04:00  INFO 471352 --- [api] [http-nio-8080-exec-8] i.g.n.a.configuration.WebSecurityConfig  : findOrCreateUser result: UserEntity{githubId='54959715', username='ndr2084'}
+2026-05-20T22:57:46.141-04:00  INFO 471352 --- [api] [http-nio-8080-exec-10] i.g.n.a.configuration.WebSecurityConfig  : OAuth2 login success - user: Name: [54959715], Granted Authorities: [[OAUTH2_USER, SCOPE_read:user]], User Attributes: [{login=ndr2084, id=54959715, node_id=MDQ6VXNlcjU0OTU5NzE1, avatar_url=https://avatars.githubusercontent.com/u/54959715?v=4, gravatar_id=, url=https://api.github.com/users/ndr2084, html_url=https://github.com/ndr2084, followers_url=https://api.github.com/users/ndr2084/followers, following_url=https://api.github.com/users/ndr2084/following{/other_user}, gists_url=https://api.github.com/users/ndr2084/gists{/gist_id}, starred_url=https://api.github.com/users/ndr2084/starred{/owner}{/repo}, subscriptions_url=https://api.github.com/users/ndr2084/subscriptions, organizations_url=https://api.github.com/users/ndr2084/orgs, repos_url=https://api.github.com/users/ndr2084/repos, events_url=https://api.github.com/users/ndr2084/events{/privacy}, received_events_url=https://api.github.com/users/ndr2084/received_events, type=User, user_view_type=private, site_admin=false, name=Nathan Rous, company=Research Assistant @ Lassonde , blog=, location=Toronto, ON, email=null, hireable=true, bio=Lassonde School of Engineering
+HBSc CS With Specialization in AI | Spring and Angular 
+, twitter_username=null, notification_email=null, public_repos=37, public_gists=0, followers=10, following=22, created_at=2019-09-05T19:41:27Z, updated_at=2026-05-19T22:39:16Z, private_gists=0, total_private_repos=15, owned_private_repos=15, disk_usage=1813567, collaborators=1, two_factor_authentication=false, plan={name=free, space=976562499, collaborators=0, private_repos=10000}}]
+2026-05-20T22:57:46.145-04:00  INFO 471352 --- [api] [http-nio-8080-exec-10] i.g.n.a.configuration.WebSecurityConfig  : findOrCreateUser result: UserEntity{githubId='54959715', username='ndr2084'}
+2026-05-20T23:02:34.529-04:00  INFO 471352 --- [api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T23:02:34.533-04:00  INFO 471352 --- [api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-20T23:02:34.539-04:00  INFO 471352 --- [api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:02:34.542-04:00  INFO 471352 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:02:34.544-04:00  INFO 471352 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T23:02:41.973-04:00  INFO 486677 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 486677 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:02:41.976-04:00  INFO 486677 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:02:42.630-04:00  INFO 486677 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:02:42.665-04:00  INFO 486677 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-05-20T23:02:43.134-04:00  INFO 486677 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:02:43.144-04:00  INFO 486677 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:02:43.144-04:00  INFO 486677 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:02:43.186-04:00  INFO 486677 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1169 ms
+2026-05-20T23:02:43.327-04:00  INFO 486677 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:02:43.451-04:00  INFO 486677 --- [api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f18b738
+2026-05-20T23:02:43.452-04:00  INFO 486677 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T23:02:43.528-04:00  INFO 486677 --- [api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-20T23:02:43.581-04:00  INFO 486677 --- [api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-20T23:02:43.900-04:00  INFO 486677 --- [api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T23:02:43.970-04:00  INFO 486677 --- [api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T23:02:44.560-04:00  INFO 486677 --- [api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T23:02:44.607-04:00  INFO 486677 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:02:44.676-04:00  INFO 486677 --- [api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-20T23:02:45.156-04:00  WARN 486677 --- [api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T23:02:45.612-04:00  WARN 486677 --- [api] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-05-20T23:02:46.018-04:00  INFO 486677 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T23:02:46.026-04:00  INFO 486677 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Started ApiApplication in 4.452 seconds (process running for 4.735)
+2026-05-20T23:02:49.467-04:00  INFO 486677 --- [api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T23:02:49.467-04:00  INFO 486677 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T23:02:49.469-04:00  INFO 486677 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-20T23:02:50.499-04:00  INFO 486677 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : OAuth2 login success - user: Name: [54959715], Granted Authorities: [[OAUTH2_USER, SCOPE_read:user]], User Attributes: [{login=ndr2084, id=54959715, node_id=MDQ6VXNlcjU0OTU5NzE1, avatar_url=https://avatars.githubusercontent.com/u/54959715?v=4, gravatar_id=, url=https://api.github.com/users/ndr2084, html_url=https://github.com/ndr2084, followers_url=https://api.github.com/users/ndr2084/followers, following_url=https://api.github.com/users/ndr2084/following{/other_user}, gists_url=https://api.github.com/users/ndr2084/gists{/gist_id}, starred_url=https://api.github.com/users/ndr2084/starred{/owner}{/repo}, subscriptions_url=https://api.github.com/users/ndr2084/subscriptions, organizations_url=https://api.github.com/users/ndr2084/orgs, repos_url=https://api.github.com/users/ndr2084/repos, events_url=https://api.github.com/users/ndr2084/events{/privacy}, received_events_url=https://api.github.com/users/ndr2084/received_events, type=User, user_view_type=private, site_admin=false, name=Nathan Rous, company=Research Assistant @ Lassonde , blog=, location=Toronto, ON, email=null, hireable=true, bio=Lassonde School of Engineering
+HBSc CS With Specialization in AI | Spring and Angular 
+, twitter_username=null, notification_email=null, public_repos=37, public_gists=0, followers=10, following=22, created_at=2019-09-05T19:41:27Z, updated_at=2026-05-19T22:39:16Z, private_gists=0, total_private_repos=15, owned_private_repos=15, disk_usage=1813567, collaborators=1, two_factor_authentication=false, plan={name=free, space=976562499, collaborators=0, private_repos=10000}}]
+2026-05-20T23:02:50.827-04:00  INFO 486677 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : findOrCreateUser result: UserEntity{githubId='54959715', username='ndr2084'}
+2026-05-20T23:33:11.722-04:00  INFO 486677 --- [api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T23:33:11.725-04:00  INFO 486677 --- [api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-20T23:33:11.732-04:00  INFO 486677 --- [api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:33:11.736-04:00  INFO 486677 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:33:11.739-04:00  INFO 486677 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T23:33:19.315-04:00  INFO 503839 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 503839 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:33:19.318-04:00  INFO 503839 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:33:19.925-04:00  INFO 503839 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:33:19.959-04:00  INFO 503839 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-05-20T23:33:20.496-04:00  INFO 503839 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:33:20.505-04:00  INFO 503839 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:33:20.506-04:00  INFO 503839 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:33:20.545-04:00  INFO 503839 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1190 ms
+2026-05-20T23:33:20.689-04:00  INFO 503839 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:33:20.817-04:00  INFO 503839 --- [api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f017dd0
+2026-05-20T23:33:20.818-04:00  INFO 503839 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T23:33:20.899-04:00  INFO 503839 --- [api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-20T23:33:20.946-04:00  INFO 503839 --- [api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-20T23:33:21.272-04:00  INFO 503839 --- [api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T23:33:21.345-04:00  INFO 503839 --- [api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T23:33:21.900-04:00  INFO 503839 --- [api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T23:33:21.949-04:00  INFO 503839 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:33:22.014-04:00  INFO 503839 --- [api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-20T23:33:22.369-04:00  WARN 503839 --- [api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T23:33:22.779-04:00  WARN 503839 --- [api] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-05-20T23:33:23.149-04:00  INFO 503839 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T23:33:23.156-04:00  INFO 503839 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Started ApiApplication in 4.247 seconds (process running for 4.529)
+2026-05-20T23:33:36.159-04:00  INFO 503839 --- [api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T23:33:36.160-04:00  INFO 503839 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T23:33:36.162-04:00  INFO 503839 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-20T23:34:06.344-04:00  INFO 503839 --- [api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T23:34:06.347-04:00  INFO 503839 --- [api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-20T23:34:06.356-04:00  INFO 503839 --- [api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:34:06.360-04:00  INFO 503839 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:34:06.364-04:00  INFO 503839 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T23:34:12.590-04:00  INFO 504754 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 504754 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:34:12.593-04:00  INFO 504754 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:34:13.307-04:00  INFO 504754 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:34:13.346-04:00  INFO 504754 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2026-05-20T23:34:13.888-04:00  INFO 504754 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:34:13.899-04:00  INFO 504754 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:34:13.899-04:00  INFO 504754 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:34:13.941-04:00  INFO 504754 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1306 ms
+2026-05-20T23:34:14.093-04:00  INFO 504754 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:34:14.221-04:00  INFO 504754 --- [api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@104a287c
+2026-05-20T23:34:14.223-04:00  INFO 504754 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T23:34:14.302-04:00  INFO 504754 --- [api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-20T23:34:14.349-04:00  INFO 504754 --- [api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-20T23:34:14.686-04:00  INFO 504754 --- [api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T23:34:14.756-04:00  INFO 504754 --- [api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T23:34:15.313-04:00  INFO 504754 --- [api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T23:34:15.360-04:00  INFO 504754 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:34:15.425-04:00  INFO 504754 --- [api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-20T23:34:15.777-04:00  WARN 504754 --- [api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T23:34:16.198-04:00  WARN 504754 --- [api] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-05-20T23:34:16.574-04:00  INFO 504754 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T23:34:16.582-04:00  INFO 504754 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Started ApiApplication in 4.428 seconds (process running for 4.726)
+2026-05-20T23:34:24.901-04:00  INFO 504754 --- [api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T23:34:24.901-04:00  INFO 504754 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T23:34:24.903-04:00  INFO 504754 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-20T23:34:25.943-04:00  INFO 504754 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : OAuth2 login success - user: Name: [54959715], Granted Authorities: [[OAUTH2_USER, SCOPE_read:user]], User Attributes: [{login=ndr2084, id=54959715, node_id=MDQ6VXNlcjU0OTU5NzE1, avatar_url=https://avatars.githubusercontent.com/u/54959715?v=4, gravatar_id=, url=https://api.github.com/users/ndr2084, html_url=https://github.com/ndr2084, followers_url=https://api.github.com/users/ndr2084/followers, following_url=https://api.github.com/users/ndr2084/following{/other_user}, gists_url=https://api.github.com/users/ndr2084/gists{/gist_id}, starred_url=https://api.github.com/users/ndr2084/starred{/owner}{/repo}, subscriptions_url=https://api.github.com/users/ndr2084/subscriptions, organizations_url=https://api.github.com/users/ndr2084/orgs, repos_url=https://api.github.com/users/ndr2084/repos, events_url=https://api.github.com/users/ndr2084/events{/privacy}, received_events_url=https://api.github.com/users/ndr2084/received_events, type=User, user_view_type=private, site_admin=false, name=Nathan Rous, company=Research Assistant @ Lassonde , blog=, location=Toronto, ON, email=null, hireable=true, bio=Lassonde School of Engineering
+HBSc CS With Specialization in AI | Spring and Angular 
+, twitter_username=null, notification_email=null, public_repos=37, public_gists=0, followers=10, following=22, created_at=2019-09-05T19:41:27Z, updated_at=2026-05-19T22:39:16Z, private_gists=0, total_private_repos=15, owned_private_repos=15, disk_usage=1813567, collaborators=1, two_factor_authentication=false, plan={name=free, space=976562499, collaborators=0, private_repos=10000}}]
+2026-05-20T23:34:26.279-04:00  INFO 504754 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : findOrCreateUser result: UserEntity{githubId='54959715', username='ndr2084'}
+2026-05-20T23:35:13.268-04:00  INFO 505440 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 505440 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:35:13.272-04:00  INFO 505440 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:35:13.921-04:00  INFO 505440 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:35:13.961-04:00  INFO 505440 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2026-05-20T23:35:14.413-04:00  INFO 505440 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:35:14.423-04:00  INFO 505440 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:35:14.424-04:00  INFO 505440 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:35:14.465-04:00  INFO 505440 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1150 ms
+2026-05-20T23:35:14.610-04:00  INFO 505440 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:35:14.733-04:00  INFO 505440 --- [api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ed25612
+2026-05-20T23:35:14.734-04:00  INFO 505440 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T23:35:14.819-04:00  INFO 505440 --- [api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-20T23:35:14.857-04:00  INFO 505440 --- [api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-20T23:35:15.186-04:00  INFO 505440 --- [api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T23:35:15.257-04:00  INFO 505440 --- [api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T23:35:15.826-04:00  INFO 505440 --- [api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T23:35:15.887-04:00  INFO 505440 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:35:15.949-04:00  INFO 505440 --- [api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-20T23:35:16.302-04:00  WARN 505440 --- [api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T23:35:16.729-04:00  WARN 505440 --- [api] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-05-20T23:35:17.114-04:00  WARN 505440 --- [api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-05-20T23:35:17.118-04:00  INFO 505440 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:35:17.120-04:00  INFO 505440 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:35:17.124-04:00  INFO 505440 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T23:35:17.135-04:00  INFO 505440 --- [api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-20T23:35:17.145-04:00 ERROR 505440 --- [api] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-05-20T23:35:28.387-04:00  INFO 504754 --- [api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T23:35:28.390-04:00  INFO 504754 --- [api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-20T23:35:28.398-04:00  INFO 504754 --- [api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:35:28.402-04:00  INFO 504754 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:35:28.406-04:00  INFO 504754 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T23:35:37.879-04:00  INFO 505890 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 505890 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:35:37.883-04:00  INFO 505890 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:35:38.559-04:00  INFO 505890 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:35:38.601-04:00  INFO 505890 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2026-05-20T23:35:39.050-04:00  INFO 505890 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:35:39.059-04:00  INFO 505890 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:35:39.060-04:00  INFO 505890 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:35:39.097-04:00  INFO 505890 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1175 ms
+2026-05-20T23:35:39.253-04:00  INFO 505890 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:35:39.378-04:00  INFO 505890 --- [api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9e33a6a
+2026-05-20T23:35:39.379-04:00  INFO 505890 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T23:35:39.462-04:00  INFO 505890 --- [api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-20T23:35:39.503-04:00  INFO 505890 --- [api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-20T23:35:39.830-04:00  INFO 505890 --- [api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T23:35:39.901-04:00  INFO 505890 --- [api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T23:35:40.493-04:00  INFO 505890 --- [api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T23:35:40.540-04:00  INFO 505890 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:35:40.603-04:00  INFO 505890 --- [api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-20T23:35:40.962-04:00  WARN 505890 --- [api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T23:35:41.404-04:00  WARN 505890 --- [api] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-05-20T23:35:41.796-04:00  INFO 505890 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T23:35:41.804-04:00  INFO 505890 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Started ApiApplication in 4.323 seconds (process running for 4.78)
+2026-05-20T23:35:46.906-04:00  INFO 505890 --- [api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T23:35:46.906-04:00  INFO 505890 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T23:35:46.908-04:00  INFO 505890 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-20T23:35:47.907-04:00  INFO 505890 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : OAuth2 login success - user: Name: [54959715], Granted Authorities: [[OAUTH2_USER, SCOPE_read:user]], User Attributes: [{login=ndr2084, id=54959715, node_id=MDQ6VXNlcjU0OTU5NzE1, avatar_url=https://avatars.githubusercontent.com/u/54959715?v=4, gravatar_id=, url=https://api.github.com/users/ndr2084, html_url=https://github.com/ndr2084, followers_url=https://api.github.com/users/ndr2084/followers, following_url=https://api.github.com/users/ndr2084/following{/other_user}, gists_url=https://api.github.com/users/ndr2084/gists{/gist_id}, starred_url=https://api.github.com/users/ndr2084/starred{/owner}{/repo}, subscriptions_url=https://api.github.com/users/ndr2084/subscriptions, organizations_url=https://api.github.com/users/ndr2084/orgs, repos_url=https://api.github.com/users/ndr2084/repos, events_url=https://api.github.com/users/ndr2084/events{/privacy}, received_events_url=https://api.github.com/users/ndr2084/received_events, type=User, user_view_type=private, site_admin=false, name=Nathan Rous, company=Research Assistant @ Lassonde , blog=, location=Toronto, ON, email=null, hireable=true, bio=Lassonde School of Engineering
+HBSc CS With Specialization in AI | Spring and Angular 
+, twitter_username=null, notification_email=null, public_repos=37, public_gists=0, followers=10, following=22, created_at=2019-09-05T19:41:27Z, updated_at=2026-05-19T22:39:16Z, private_gists=0, total_private_repos=15, owned_private_repos=15, disk_usage=1813567, collaborators=1, two_factor_authentication=false, plan={name=free, space=976562499, collaborators=0, private_repos=10000}}]
+2026-05-20T23:35:48.234-04:00  INFO 505890 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : findOrCreateUser result: UserEntity{githubId='54959715', username='ndr2084'}
+2026-05-20T23:35:59.263-04:00  INFO 505890 --- [api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T23:35:59.265-04:00  INFO 505890 --- [api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-20T23:35:59.281-04:00  INFO 505890 --- [api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:35:59.283-04:00  INFO 505890 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:35:59.287-04:00  INFO 505890 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T23:36:17.996-04:00  INFO 506426 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 506426 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:36:17.999-04:00  INFO 506426 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:36:18.659-04:00  INFO 506426 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:36:18.694-04:00  INFO 506426 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-05-20T23:36:19.184-04:00  INFO 506426 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:36:19.194-04:00  INFO 506426 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:36:19.195-04:00  INFO 506426 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:36:19.236-04:00  INFO 506426 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1200 ms
+2026-05-20T23:36:19.401-04:00  INFO 506426 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:36:19.525-04:00  INFO 506426 --- [api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ed25612
+2026-05-20T23:36:19.526-04:00  INFO 506426 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T23:36:19.613-04:00  INFO 506426 --- [api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-20T23:36:19.650-04:00  INFO 506426 --- [api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-20T23:36:19.972-04:00  INFO 506426 --- [api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T23:36:20.049-04:00  INFO 506426 --- [api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T23:36:20.679-04:00  INFO 506426 --- [api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T23:36:20.724-04:00  INFO 506426 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:36:20.789-04:00  INFO 506426 --- [api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-20T23:36:21.165-04:00  WARN 506426 --- [api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T23:36:21.644-04:00  WARN 506426 --- [api] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-05-20T23:36:22.111-04:00  INFO 506426 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T23:36:22.120-04:00  INFO 506426 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Started ApiApplication in 4.54 seconds (process running for 5.015)
+2026-05-20T23:36:26.210-04:00  INFO 506426 --- [api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T23:36:26.210-04:00  INFO 506426 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T23:36:26.212-04:00  INFO 506426 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-20T23:36:27.006-04:00 ERROR 506426 --- [api] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Object] to type [byte[]] for value [org.springframework.security.oauth2.core.OAuth2AuthenticationException@4c6cb8ba]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.serialize(JdbcIndexedSessionRepository.java:684) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.lambda$insertSessionAttributes$5(JdbcIndexedSessionRepository.java:569) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:969) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:670) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:966) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1010) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.insertSessionAttributes(JdbcIndexedSessionRepository.java:565) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.lambda$save$10(JdbcIndexedSessionRepository.java:933) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.lambda$save$15(JdbcIndexedSessionRepository.java:957) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.transaction.support.TransactionOperations.lambda$executeWithoutResult$0(TransactionOperations.java:68) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:137) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.TransactionOperations.executeWithoutResult(TransactionOperations.java:67) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.save(JdbcIndexedSessionRepository.java:955) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.save(JdbcIndexedSessionRepository.java:477) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.save(JdbcIndexedSessionRepository.java:141) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.commitSession(SessionRepositoryFilter.java:229) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:145) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:64) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:357) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.7.jar:7.0.7]
+	... 44 common frames omitted
+Caused by: java.io.NotSerializableException: org.springframework.web.client.IntrospectingClientHttpResponse
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1187) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:350) ~[na:na]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:46) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60) ~[spring-core-7.0.7.jar:7.0.7]
+	... 47 common frames omitted
+
+2026-05-20T23:36:27.061-04:00 ERROR 506426 --- [api] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Object] to type [byte[]] for value [org.springframework.security.oauth2.core.OAuth2AuthenticationException@4c6cb8ba]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.serialize(JdbcIndexedSessionRepository.java:684) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.lambda$insertSessionAttributes$5(JdbcIndexedSessionRepository.java:569) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:969) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:670) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:966) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1010) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.insertSessionAttributes(JdbcIndexedSessionRepository.java:565) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.lambda$save$10(JdbcIndexedSessionRepository.java:933) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.lambda$save$15(JdbcIndexedSessionRepository.java:957) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.transaction.support.TransactionOperations.lambda$executeWithoutResult$0(TransactionOperations.java:68) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:137) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.TransactionOperations.executeWithoutResult(TransactionOperations.java:67) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.save(JdbcIndexedSessionRepository.java:955) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.save(JdbcIndexedSessionRepository.java:477) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.save(JdbcIndexedSessionRepository.java:141) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.commitSession(SessionRepositoryFilter.java:229) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:145) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:513) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:335) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:262) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:375) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:206) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:282) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:147) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:64) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:357) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.7.jar:7.0.7]
+	... 43 common frames omitted
+Caused by: java.io.NotSerializableException: org.springframework.web.client.IntrospectingClientHttpResponse
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1187) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:350) ~[na:na]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:46) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60) ~[spring-core-7.0.7.jar:7.0.7]
+	... 46 common frames omitted
+
+2026-05-20T23:36:27.063-04:00 ERROR 506426 --- [api] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing [ErrorPage[errorCode=0, location=/error]]
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.Object] to type [byte[]] for value [org.springframework.security.oauth2.core.OAuth2AuthenticationException@4c6cb8ba]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.serialize(JdbcIndexedSessionRepository.java:684) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.lambda$insertSessionAttributes$5(JdbcIndexedSessionRepository.java:569) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:969) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:670) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:966) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1010) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.insertSessionAttributes(JdbcIndexedSessionRepository.java:565) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.lambda$save$10(JdbcIndexedSessionRepository.java:933) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.lambda$save$15(JdbcIndexedSessionRepository.java:957) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.transaction.support.TransactionOperations.lambda$executeWithoutResult$0(TransactionOperations.java:68) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:137) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.TransactionOperations.executeWithoutResult(TransactionOperations.java:67) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository$JdbcSession.save(JdbcIndexedSessionRepository.java:955) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.save(JdbcIndexedSessionRepository.java:477) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.jdbc.JdbcIndexedSessionRepository.save(JdbcIndexedSessionRepository.java:141) ~[spring-session-jdbc-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.commitSession(SessionRepositoryFilter.java:229) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:145) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82) ~[spring-session-core-4.0.3.jar:4.0.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:513) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:335) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:262) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:375) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:206) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:282) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:147) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:64) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:357) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.7.jar:7.0.7]
+	... 43 common frames omitted
+Caused by: java.io.NotSerializableException: org.springframework.web.client.IntrospectingClientHttpResponse
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1187) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1529) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1572) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:443) ~[na:na]
+	at java.base/java.lang.Throwable.writeObject(Throwable.java:1014) ~[na:na]
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1070) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1516) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1438) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1181) ~[na:na]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:350) ~[na:na]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:46) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60) ~[spring-core-7.0.7.jar:7.0.7]
+	... 46 common frames omitted
+
+2026-05-20T23:36:38.159-04:00  INFO 506426 --- [api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T23:36:38.161-04:00  INFO 506426 --- [api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-20T23:36:38.168-04:00  INFO 506426 --- [api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:36:38.171-04:00  INFO 506426 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:36:38.174-04:00  INFO 506426 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T23:36:40.017-04:00  INFO 506789 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 506789 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:36:40.020-04:00  INFO 506789 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:36:40.727-04:00  INFO 506789 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:36:40.770-04:00  INFO 506789 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2026-05-20T23:36:41.240-04:00  INFO 506789 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:36:41.250-04:00  INFO 506789 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:36:41.250-04:00  INFO 506789 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:36:41.291-04:00  INFO 506789 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1235 ms
+2026-05-20T23:36:41.447-04:00  INFO 506789 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:36:41.576-04:00  INFO 506789 --- [api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9e33a6a
+2026-05-20T23:36:41.578-04:00  INFO 506789 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T23:36:41.664-04:00  INFO 506789 --- [api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-20T23:36:41.704-04:00  INFO 506789 --- [api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-20T23:36:42.039-04:00  INFO 506789 --- [api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T23:36:42.105-04:00  INFO 506789 --- [api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T23:36:42.679-04:00  INFO 506789 --- [api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T23:36:42.734-04:00  INFO 506789 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:36:42.797-04:00  INFO 506789 --- [api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-20T23:36:43.153-04:00  WARN 506789 --- [api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T23:36:43.588-04:00  WARN 506789 --- [api] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-05-20T23:36:43.984-04:00  INFO 506789 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T23:36:43.991-04:00  INFO 506789 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Started ApiApplication in 4.353 seconds (process running for 4.788)
+2026-05-20T23:36:46.461-04:00  INFO 506789 --- [api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T23:36:46.462-04:00  INFO 506789 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T23:36:46.463-04:00  INFO 506789 --- [api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-20T23:36:47.428-04:00  INFO 506789 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : OAuth2 login success - user: Name: [54959715], Granted Authorities: [[OAUTH2_USER, SCOPE_read:user]], User Attributes: [{login=ndr2084, id=54959715, node_id=MDQ6VXNlcjU0OTU5NzE1, avatar_url=https://avatars.githubusercontent.com/u/54959715?v=4, gravatar_id=, url=https://api.github.com/users/ndr2084, html_url=https://github.com/ndr2084, followers_url=https://api.github.com/users/ndr2084/followers, following_url=https://api.github.com/users/ndr2084/following{/other_user}, gists_url=https://api.github.com/users/ndr2084/gists{/gist_id}, starred_url=https://api.github.com/users/ndr2084/starred{/owner}{/repo}, subscriptions_url=https://api.github.com/users/ndr2084/subscriptions, organizations_url=https://api.github.com/users/ndr2084/orgs, repos_url=https://api.github.com/users/ndr2084/repos, events_url=https://api.github.com/users/ndr2084/events{/privacy}, received_events_url=https://api.github.com/users/ndr2084/received_events, type=User, user_view_type=private, site_admin=false, name=Nathan Rous, company=Research Assistant @ Lassonde , blog=, location=Toronto, ON, email=null, hireable=true, bio=Lassonde School of Engineering
+HBSc CS With Specialization in AI | Spring and Angular 
+, twitter_username=null, notification_email=null, public_repos=37, public_gists=0, followers=10, following=22, created_at=2019-09-05T19:41:27Z, updated_at=2026-05-19T22:39:16Z, private_gists=0, total_private_repos=15, owned_private_repos=15, disk_usage=1813567, collaborators=1, two_factor_authentication=false, plan={name=free, space=976562499, collaborators=0, private_repos=10000}}]
+2026-05-20T23:36:47.771-04:00  INFO 506789 --- [api] [http-nio-8080-exec-2] i.g.n.a.configuration.WebSecurityConfig  : findOrCreateUser result: UserEntity{githubId='54959715', username='ndr2084'}
+2026-05-20T23:38:38.062-04:00  INFO 506789 --- [api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T23:38:38.066-04:00  INFO 506789 --- [api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-20T23:38:38.072-04:00  INFO 506789 --- [api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:38:38.074-04:00  INFO 506789 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:38:38.077-04:00  INFO 506789 --- [api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T23:38:39.920-04:00  INFO 507980 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 507980 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:38:39.922-04:00  INFO 507980 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:38:40.543-04:00  INFO 507980 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:38:40.583-04:00  INFO 507980 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2026-05-20T23:38:41.019-04:00  INFO 507980 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:38:41.028-04:00  INFO 507980 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:38:41.029-04:00  INFO 507980 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:38:41.067-04:00  INFO 507980 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1111 ms
+2026-05-20T23:38:41.218-04:00  INFO 507980 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:38:42.259-04:00  WARN 507980 --- [api] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'jdbcSessionDataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'jdbcSessionDataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/session/jdbc/autoconfigure/JdbcSessionAutoConfiguration.class]: Failed to instantiate [org.springframework.boot.session.jdbc.autoconfigure.JdbcSessionDataSourceScriptDatabaseInitializer]: Factory method 'jdbcSessionDataSourceScriptDatabaseInitializer' threw exception with message: Failed to determine DatabaseDriver
+2026-05-20T23:38:42.262-04:00  INFO 507980 --- [api] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-05-20T23:38:42.272-04:00  INFO 507980 --- [api] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-20T23:38:42.284-04:00 ERROR 507980 --- [api] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'jdbcSessionDataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'jdbcSessionDataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/session/jdbc/autoconfigure/JdbcSessionAutoConfiguration.class]: Failed to instantiate [org.springframework.boot.session.jdbc.autoconfigure.JdbcSessionDataSourceScriptDatabaseInitializer]: Factory method 'jdbcSessionDataSourceScriptDatabaseInitializer' threw exception with message: Failed to determine DatabaseDriver
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.7.jar:7.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.7.jar:7.0.7]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.6.jar:4.0.6]
+	at io.github.ndr2084.api.ApiApplication.main(ApiApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcSessionDataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/session/jdbc/autoconfigure/JdbcSessionAutoConfiguration.class]: Failed to instantiate [org.springframework.boot.session.jdbc.autoconfigure.JdbcSessionDataSourceScriptDatabaseInitializer]: Factory method 'jdbcSessionDataSourceScriptDatabaseInitializer' threw exception with message: Failed to determine DatabaseDriver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309) ~[spring-beans-7.0.7.jar:7.0.7]
+	... 10 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.session.jdbc.autoconfigure.JdbcSessionDataSourceScriptDatabaseInitializer]: Factory method 'jdbcSessionDataSourceScriptDatabaseInitializer' threw exception with message: Failed to determine DatabaseDriver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.7.jar:7.0.7]
+	... 20 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to determine DatabaseDriver
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.getDatabaseDriver(PlatformPlaceholderDatabaseDriverResolver.java:144) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.determinePlatform(PlatformPlaceholderDatabaseDriverResolver.java:132) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.lambda$resolveAll$0(PlatformPlaceholderDatabaseDriverResolver.java:97) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.resolveAll(PlatformPlaceholderDatabaseDriverResolver.java:122) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.resolveAll(PlatformPlaceholderDatabaseDriverResolver.java:97) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.jdbc.init.PropertiesBasedDataSourceScriptDatabaseInitializer.resolveSchemaLocations(PropertiesBasedDataSourceScriptDatabaseInitializer.java:90) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.jdbc.init.PropertiesBasedDataSourceScriptDatabaseInitializer.getSettings(PropertiesBasedDataSourceScriptDatabaseInitializer.java:75) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.jdbc.init.PropertiesBasedDataSourceScriptDatabaseInitializer.<init>(PropertiesBasedDataSourceScriptDatabaseInitializer.java:59) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.session.jdbc.autoconfigure.JdbcSessionDataSourceScriptDatabaseInitializer.<init>(JdbcSessionDataSourceScriptDatabaseInitializer.java:48) ~[spring-boot-session-jdbc-4.0.6.jar:4.0.6]
+	at org.springframework.boot.session.jdbc.autoconfigure.JdbcSessionAutoConfiguration.jdbcSessionDataSourceScriptDatabaseInitializer(JdbcSessionAutoConfiguration.java:73) ~[spring-boot-session-jdbc-4.0.6.jar:4.0.6]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.7.jar:7.0.7]
+	... 23 common frames omitted
+Caused by: org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:355) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.boot.jdbc.init.PlatformPlaceholderDatabaseDriverResolver.getDatabaseDriver(PlatformPlaceholderDatabaseDriverResolver.java:140) ~[spring-boot-jdbc-4.0.6.jar:4.0.6]
+	... 37 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:329) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	... 38 common frames omitted
+Caused by: org.postgresql.util.PSQLException: The server requested SCRAM-based authentication, but no password was provided.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.lambda$doAuthentication$5(ConnectionFactoryImpl.java:939) ~[postgresql-42.7.10.jar:42.7.10]
+	at org.postgresql.core.v3.AuthenticationPluginManager.withPassword(AuthenticationPluginManager.java:82) ~[postgresql-42.7.10.jar:42.7.10]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:936) ~[postgresql-42.7.10.jar:42.7.10]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:234) ~[postgresql-42.7.10.jar:42.7.10]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289) ~[postgresql-42.7.10.jar:42.7.10]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57) ~[postgresql-42.7.10.jar:42.7.10]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290) ~[postgresql-42.7.10.jar:42.7.10]
+	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.10.jar:42.7.10]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.10.jar:42.7.10]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-7.0.2.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-7.0.7.jar:7.0.7]
+	... 39 common frames omitted
+
+2026-05-20T23:39:05.787-04:00  INFO 508320 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Starting ApiApplication using Java 17.0.18 with PID 508320 (/home/william/Desktop/WestEndCoop/api/target/classes started by william in /home/william/Desktop/WestEndCoop/api)
+2026-05-20T23:39:05.790-04:00  INFO 508320 --- [api] [main] io.github.ndr2084.api.ApiApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T23:39:06.406-04:00  INFO 508320 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T23:39:06.440-04:00  INFO 508320 --- [api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-05-20T23:39:06.897-04:00  INFO 508320 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-20T23:39:06.906-04:00  INFO 508320 --- [api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T23:39:06.906-04:00  INFO 508320 --- [api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-20T23:39:06.945-04:00  INFO 508320 --- [api] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1118 ms
+2026-05-20T23:39:07.089-04:00  INFO 508320 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T23:39:07.206-04:00  INFO 508320 --- [api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ed25612
+2026-05-20T23:39:07.208-04:00  INFO 508320 --- [api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T23:39:07.294-04:00  INFO 508320 --- [api] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-20T23:39:07.333-04:00  INFO 508320 --- [api] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-20T23:39:07.659-04:00  INFO 508320 --- [api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T23:39:07.726-04:00  INFO 508320 --- [api] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T23:39:08.306-04:00  INFO 508320 --- [api] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T23:39:08.353-04:00  INFO 508320 --- [api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:39:08.416-04:00  INFO 508320 --- [api] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-20T23:39:08.790-04:00  WARN 508320 --- [api] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T23:39:09.229-04:00  WARN 508320 --- [api] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-05-20T23:39:09.620-04:00  INFO 508320 --- [api] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T23:39:09.627-04:00  INFO 508320 --- [api] [main] io.github.ndr2084.api.ApiApplication     : Started ApiApplication in 4.256 seconds (process running for 4.754)

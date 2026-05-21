@@ -1,0 +1,8 @@
+/home/william/Desktop/WestEndCoop/api/src/main/java/io/github/ndr2084/api/ApiApplication.java
+/home/william/Desktop/WestEndCoop/api/src/main/java/io/github/ndr2084/api/configuration/CorsConfig.java
+/home/william/Desktop/WestEndCoop/api/src/main/java/io/github/ndr2084/api/configuration/MvcConfig.java
+/home/william/Desktop/WestEndCoop/api/src/main/java/io/github/ndr2084/api/configuration/WebSecurityConfig.java
+/home/william/Desktop/WestEndCoop/api/src/main/java/io/github/ndr2084/api/controller/LoginController.java
+/home/william/Desktop/WestEndCoop/api/src/main/java/io/github/ndr2084/api/model/UserEntity.java
+/home/william/Desktop/WestEndCoop/api/src/main/java/io/github/ndr2084/api/repository/UserRepository.java
+/home/william/Desktop/WestEndCoop/api/src/main/java/io/github/ndr2084/api/service/LoginService.java
