@@ -25,7 +25,7 @@ public class LoginController {
         this.userRepository = userRepository;
     }
 
-    @GetMapping("/me")
+    @GetMapping("/user")
     public Map<String, Object> getCurrentUser(
             @AuthenticationPrincipal OAuth2User oauthUser,
             @RegisteredOAuth2AuthorizedClient("google") OAuth2AuthorizedClient authorizedClient) {

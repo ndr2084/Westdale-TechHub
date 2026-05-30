@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
+import org.springframework.security.oauth2.client.oidc.web.logout.OidcClientInitiatedLogoutSuccessHandler;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
 
@@ -20,7 +22,11 @@ class WebSecurityConfig {
     }
 
     @Bean
-    SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+    SecurityFilterChain securityFilterChain(HttpSecurity http, ClientRegistrationRepository clientRegistrationRepository) throws Exception {
+        OidcClientInitiatedLogoutSuccessHandler logoutHandler =
+                new OidcClientInitiatedLogoutSuccessHandler(clientRegistrationRepository);
+        logoutHandler.setPostLogoutRedirectUri("http://localhost:4200/login");
+
         // @formatter:off
         http
                 .csrf(csrf -> csrf.disable())
@@ -32,6 +38,9 @@ class WebSecurityConfig {
                         .userInfoEndpoint(userInfo -> userInfo.oidcUserService(loginService))
                         .successHandler(new SimpleUrlAuthenticationSuccessHandler("http://localhost:4200/hero"))
                         .failureUrl("http://localhost:4200/login?error")
+                )
+                .logout(logout -> logout
+                        .logoutSuccessHandler(logoutHandler)
                 );
         // @formatter:on
 
