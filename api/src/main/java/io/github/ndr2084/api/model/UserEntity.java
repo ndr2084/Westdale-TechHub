@@ -1,32 +1,23 @@
 package io.github.ndr2084.api.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 @Entity
 @Table(name = "users")
 public class UserEntity {
 
-    @Id
-    private Long githubId;
-    private String username;
-    private String email;
-    private String avatarUrl;
 
-    public Long getGithubId() { return githubId; }
-
-    public void setGithubId(Long githubId) { this.githubId = githubId; }
-
-    public String getUsername() { return username; }
-    public void setUsername(String username) { this.username = username; }
-
-    public String getEmail() { return email; }
-    public void setEmail(String email) { this.email = email; }
-
-    public String getAvatarUrl() { return avatarUrl; }
-    public void setAvatarUrl(String avatarUrl) { this.avatarUrl = avatarUrl; }
+    @Id @Getter @Setter private String Id;
+    @Getter @Setter private String username;
+    @Getter @Setter private String name;
+    @Getter @Setter private String email;
+    @Getter @Setter private String avatarUrl;
 
     @Override
     public String toString() {
-        return "UserEntity{githubId='" + githubId + "', username='" + username + "'}";
+        return "UserEntity{githubId='" + Id + "', username='" + username + "'}";
     }
 }

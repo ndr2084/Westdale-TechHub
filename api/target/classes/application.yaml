@@ -15,14 +15,12 @@ spring:
     oauth2:
       client:
         registration:
-          github:
+          google:
             clientId: ${OAUTH_CLIENT_ID}
             clientSecret: ${OAUTH_CLIENT_SECRET}
-
 logging:
   file:
     name: logs/api.log
-
 management:
   datadog:
     metrics:
