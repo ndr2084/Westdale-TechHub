@@ -1,5 +1,5 @@
-1. Create an interceptor that will insert a bearer token into an http request
-2. Create an interceptor that will insert the SessionCookie into an http request
+1. Create an interceptor that will insert a bearer token into an http request, don't forget about app.config.ts!
+2. Create an interceptor that will insert the SessionCookie into an http request, don't forget about app.config.ts!
 3. Explain what window.location.href is
 4. Explain what HttpClient is
 5. Create a generic HttpClient request in an Angular component
